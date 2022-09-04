@@ -1,0 +1,154 @@
+.heading{
+  font-size: 1.5rem;
+}
+.d-flex-center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bg-success{
+  background-color: #0d47a1;
+  border-radius: 5px;
+  color:white;
+}
+a{
+  list-style: none;
+  color:black;
+  text-decoration: none;
+}
+ul>li{
+  list-style: none;
+}
+.text-center{
+  align-items: center;
+}
+.d-flex{
+  display: flex;
+}
+.align{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.self-align{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.align>div{
+  padding-bottom: 4rem;
+}
+.btn{
+ display: flex;
+ flex-direction: row;
+}
+.btn>button{
+  border-radius: 1rem;
+  border: #000 2px ;
+  padding: 0.6em;
+  background-color: #ffbb33;
+}
+.border{
+  border-radius: 1rem;
+}
+.border-rounded{
+  border-radius: 50%;
+}
+.container{
+  width:80vw;
+  margin-left: 10vw;
+}
+.container-fluid{  
+  width: 100vw;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 10vh;
+  background-color: white;
+}
+.nav>ul{
+  display: flex;
+}
+.nav>ul>li{
+  padding-right: 2em;
+  font-weight: bold;
+}
+.nav-items>li>button{
+  background-color: #4285F4;
+  padding: 1em;
+  border: #000 1px ;
+  border-radius: 1rem;
+}
+.search{
+  background-color: #FF8800;
+  padding: 1em;
+  margin: 1em;
+  border: #000 1px ;
+  border-radius: 1rem;
+}
+.container>.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-items>div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1em;
+  border-radius: 2px;
+}
+.main-items>input{
+  border-radius: 5px;
+  border: #000 2px ;
+}
+
+.span-head>form{
+  width:80vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.span-head>form>div>label{
+  font-size: 1em;
+  color: rgb(223, 127, 0);
+}
+
+.main-content{
+  display: grid;
+  gap: 20px 20px;
+  grid-template-columns: auto auto auto;
+  margin-top: 1rem;
+}
+.main-content-items{
+  background-color: white;
+  border-radius: 5px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  margin-top: 2em;
+}
+img{
+  max-width:100%;
+  height:auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+select{
+  color: transparent !important;
+       text-shadow: 0 0 0 #000 !important;
+       background-image: none !important;
+  border: 0;
+}
+select:focus{
+  color: grey !important;
+}
+.hide{
+  display: none;
+}
